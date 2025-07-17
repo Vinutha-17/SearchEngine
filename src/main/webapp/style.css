@@ -1,0 +1,108 @@
+/* ===== Global Layout ===== */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+/* ===== Heading ===== */
+h2 {
+    margin-top: 40px;
+    color: #444;
+}
+
+/* ===== Search Form ===== */
+form {
+    max-width: 800px;
+    margin: 40px auto;
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form input,
+form button {
+    display: block;
+    width: 90%;
+    margin: 15px 0;
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #45a049;
+}
+
+/* ===== Search Results Wrapper (for centering) ===== */
+.result-wrapper {
+    text-align: center;
+}
+
+/* ===== Search Results Container ===== */
+.result-container {
+    display: inline-block;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    overflow-x: auto;
+    overflow-y: auto;
+    margin-top: 40px;
+    max-height: 400px; /* Optional scroll if too tall */
+}
+
+/* ===== Table Styling ===== */
+.result-container table {
+    width: 90%;
+    table-layout: fixed;
+    border-collapse: collapse;
+    border: 1px solid #999; /* outer table border */
+}
+
+.result-container th,
+.result-container td {
+    border: 1px solid #999; /* consistent inner borders */
+    padding: 10px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+/* Sticky table header */
+.result-container th {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* ===== Return Button Styling ===== */
+.return-button {
+    margin: 30px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+    display: block;
+}
+
+.return-button:hover {
+    background-color: #45a049;
+}
