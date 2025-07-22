@@ -14,7 +14,7 @@ public class SearchEmployeeServlet extends HttpServlet {
     // Update credentials as per your setup
     private static final String URL = "jdbc:mysql://localhost:3306/employee_db";
     private static final String USER = "root";
-    private static final String PASS = "1417";
+    private static final String PASS = "your_password";
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
