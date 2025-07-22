@@ -26,7 +26,7 @@ A simple Java-based web application built with **Servlets**, **JSP**, and **MySQ
 
 ##1. **Create Database**
 
-'''sql
+```sql
 CREATE DATABASE employee_db;
 USE employee_db;
 
@@ -40,6 +40,7 @@ CREATE TABLE employees (
     tags VARCHAR(255),
     joined_on DATE
 );
+```
 ---
 ##🛠️ How to Run the Project
 ##1. Clone or Download
@@ -78,6 +79,7 @@ http://localhost:8080/EmployeeSearchProject/
 
 ## 📁 Project Folder Structure
 
+```
 EmployeeSearchProject/
 │
 ├── WebContent/
@@ -92,3 +94,4 @@ EmployeeSearchProject/
 ├── lib/
 │   └── mysql-connector-j-8.x.x.jar
 ---
+```
