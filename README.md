@@ -40,7 +40,7 @@ CREATE TABLE employees (
     tags VARCHAR(255),
     joined_on DATE
 );
-
+---
 ##🛠️ How to Run the Project
 ###1. Clone or Download
 Place the project files inside a Dynamic Web Project folder in Eclipse.
@@ -87,3 +87,4 @@ EmployeeSearchProject/
 │
 ├── lib/
 │   └── mysql-connector-j-8.x.x.jar
+---
