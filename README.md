@@ -22,9 +22,9 @@ A simple Java-based web application built with **Servlets**, **JSP**, and **MySQ
 
 ---
 
-# 🗃️ MySQL Database Setup
+## 🗃️ MySQL Database Setup
 
-##1. **Create Database**
+### 1. **Create Database**
 
 ```sql
 CREATE DATABASE employee_db;
@@ -42,15 +42,15 @@ CREATE TABLE employees (
 );
 ```
 ---
-##🛠️ How to Run the Project
-##1. Clone or Download
+## 🛠️ How to Run the Project
+### 1. Clone or Download
 Place the project files inside a Dynamic Web Project folder in Eclipse.
 
-###2. Configure MySQL JDBC Driver
+### 2. Configure MySQL JDBC Driver
 Download the latest MySQL Connector/J from:
-
-👉 https://dev.mysql.com/downloads/connector/j/
-
+```
+https://dev.mysql.com/downloads/connector/j/
+```
 Then:
 
 Right-click on the project in Eclipse
@@ -59,22 +59,22 @@ Go to Build Path > Configure Build Path
 
 Under Libraries, click Add External JARs and select mysql-connector-j-8.x.x.jar
 
-##3. Set Up Database Credentials
+### 3. Set Up Database Credentials
 In SearchEmployeeServlet.java, update the credentials:
-
+```
 private static final String URL = "jdbc:mysql://localhost:3306/employee_db";
 private static final String USER = "root";
 private static final String PASS = "your_password";
-
-##4. Deploy on Tomcat
+```
+### 4. Deploy on Tomcat
 Use Apache Tomcat 10+ (recommended)
 
 Right-click the project > Run As > Run on Server
 
-##5. Access the App
-
+### 5. Access the App
+```
 http://localhost:8080/EmployeeSearchProject/
-
+```
 ---
 
 ## 📁 Project Folder Structure
